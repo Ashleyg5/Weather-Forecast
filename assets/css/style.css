@@ -2,7 +2,41 @@
     font-family: 'Roboto', sans-serif;
 }
 
-button {
-    background-color: #0d6efd;
+button.search {
+    border: 2px solid rgb(75,105,177);
+    background-color: rgb(75,105,177);
     color: white;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+div.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+input {
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+header {
+    background-color: rgb(75,105,177);
+    background-image: linear-gradient(90deg, rgba(75,105,177,1) 13%, rgba(35,77,167,1) 42%, rgba(1,1,105,1) 80%);
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.hidden {
+    display: none;
+}
+
+img.curDay {
+    width: 10%!important;
+}
+
