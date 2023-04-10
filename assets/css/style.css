@@ -2,3 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+button {
+    background-color: #0d6efd;
+    color: white;
+}
