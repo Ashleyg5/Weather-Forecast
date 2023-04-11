@@ -14,18 +14,21 @@
 
 <body>
     <header>
-        <h1 class="col text-white text-center p-2">Weather Dashboard</h1>
+        <!-- title -->
+        <h1 class="col text-white text-center p-3">Weather Dashboard</h1>
     </header>
     <main class="row m-2 text-center">
+        <!-- search city column -->
         <div class="col-2">
             <h2>Search for a City:</h2>
             <input type="text" class="inputBox">
             <button class="search">Search</button>
             <div class="buttonContainer"></div>
         </div>
+        <!-- current day forecast -->
         <div class="currentDay hidden col-10">
             <div class="row m-5 py-5 text-center border border-3 border-dark">
-                <p class="location"></p><img class="curDay" src="" alt="" id="icon">
+                <h2 class="location"></h2><h4 class="datetitle"></h4> <img class="curDay" src="" alt="" id="icon">
                 <p class="temp"></p>
                 <p class="wind"></p>
                 <p class="humid">Humidity: </p>
@@ -33,6 +36,7 @@
             <!-- 5 day forecast -->
             <div class="fiveDay hidden row m-5 align-items-center">
                 <h2 class=>5-Day Forecast: </h2>
+                <!-- day 1 -->
                 <div class="col m-4 pt-3 border border-3 border-dark bg-dark text-white">
                     <p class="datetitle-1"></p> 
                     <img src="" alt="" id="icon-1">
@@ -40,6 +44,7 @@
                     <p class="wind-1"></p>
                     <p class="humid-1"></p>
                 </div>
+                <!-- day 2 -->
                 <div class="col m-4 pt-3 border border-3 border-dark bg-dark text-white">
                     <p class="datetitle-2"></p>
                     <img src="" alt="" id="icon-2">
@@ -47,6 +52,7 @@
                     <p class="wind-2"></p>
                     <p class="humid-2"></p>
                 </div>
+                <!-- day 3 -->
                 <div class="col m-4 pt-3 border border-3 border-dark bg-dark text-white">
                     <p class="datetitle-3"></p>
                     <img src="" alt="" id="icon-3">
@@ -54,6 +60,7 @@
                     <p class="wind-3"></p>
                     <p class="humid-3"></p>
                 </div>
+                <!-- day 4 -->
                 <div class="col m-4 pt-3 border border-3 border-dark bg-dark text-white">
                     <p class="datetitle-4"></p>
                     <img src="" alt="" id="icon-4">
@@ -61,6 +68,7 @@
                     <p class="wind-4"></p>
                     <p class="humid-4"></p>
                 </div>
+                <!-- day 5 -->
                 <div class="col m-4 pt-3 border border-3 border-dark bg-dark text-white">
                     <p class="datetitle-5"></p>
                     <img src="" alt="" id="icon-5">
