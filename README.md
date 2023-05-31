@@ -25,7 +25,7 @@ THEN I am again presented with current and future conditions for that city
 This is challenge 6 of the bootcamp. I created HTML, CSS, and JS to make a functional Weather Forecast page. When the user visits the page, they will see a text box where they will input a city name. Once the "search" button is clicked, they will see the current date, city name, icon depicting weather climate, temperature, wind, and humidity. Under the current dy forecast, user will see the follow 5 day forecast including the date, icon, temperature, wind, and humidity. User will also see the city name searched save to local storage and appear as a button under the search buttons. User will be able to click the search history buttons and will see the forecast according to the button clicked. The user will also have the chance to clear history, which will refresh the page and clear all search history from the local storage. This was done using bootstrap, jQuery, google fonts, and dayjs. 
 
 ## Usage
-[Coding-Quiz](https://ashleyg5.github.io/Coding-Quiz/)
+[Weather App](https://ashleyg5.github.io/Weather-Forecast/)
  
 ![Weather-Forecast](https://user-images.githubusercontent.com/118938942/231031742-7217e74e-9ba7-4643-96a1-87a766a1ea4a.png)
 
